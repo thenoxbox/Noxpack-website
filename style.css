@@ -1,0 +1,216 @@
+ body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+ }
+ nav{
+    background-color: #2f4679;
+    color: white;
+    padding: 17px 50px;
+ }
+ .navbarTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .search{
+    display: flex;
+    align-items: center;
+    background-color: #d9ceb8;
+    padding: 10px 20px;
+    border-radius: 30px;
+ }
+ .searchInput{
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 900;
+    padding: 5px 100px;
+    border-radius: 30px;
+    background-color: transparent;
+ }
+ .searchInput::placeholder{
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Poppins' sans-serif;
+ }
+ .navItem{
+    justify-content: space-between;
+ }
+ .limitedOffer{
+    font-size: 20px;
+    border-bottom: 2px solid #d9ceb8;
+}
+.limitedOffer:hover{
+    transition: all 0.4s;
+    border-bottom: 2px solid orange;
+}
+.navBottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menuItem{
+    margin-right: 20px;
+    cursor: pointer;
+    color: white;
+    font-weight: 400;
+}
+.menuItem:hover{
+    color: orange;
+    transition: all 0.4s;
+    font-weight: 400;
+}
+.slider{
+    background: url("4K IMAGES/Graffiti.jpeg");
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 82%);
+    overflow: hidden;
+}
+.sliderWrapper{
+    display: flex;
+    width: 300vw; 
+    transition: all 1.5s ease-in-out;  
+}
+.sliderItem{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sliderTitle{
+    position: absolute;
+    top: 34%;
+    right: 12%;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    color: #d9ceb8;
+    z-index: 1;
+}
+.sliderImg{
+    width: 400px;
+    height: 425px;
+    z-index: 1;
+}
+.sliderPrice{
+    position: absolute;
+    top: 34%;
+    left: 17%;
+    font-size: 30px;
+    font-weight: 300;
+    color: #d9ceb8;
+    z-index: 1;
+}
+.buyButton{
+    position: absolute;
+    top: 64%;
+    right: 15.2%;
+    font-size: 30px;
+    font-weight: 900;
+    color: #fff;
+    border: 1px solid #2f4679;
+    background-color: #d9ceb8;
+    z-index: 1;
+    cursor: pointer;
+}
+.buyButton:hover{
+    background-color: #fff;
+    color: #d9ceb8;
+    transition: 0.4s;
+}
+.Features{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+.feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.featureImg{
+    width: 50px;
+    height: 50px;   
+}
+.featureTitle{
+    color: #2f4679;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px;   
+}
+.featuredDesc{
+    color: #d9ceb8;
+    width: 70%;
+    height: 100px;
+}
+.product{
+    height: 100vh;
+    background-color: whitesmoke;
+    position: relative;
+    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+}
+.productImg{
+    width: 50%;
+}
+.productDetails{
+    position: absolute;
+    top: 10%;
+    right: 0;
+    width: 40%;
+    padding: 50px;
+}
+.productTitle{
+    color: #2f4679;
+    font-size: 40px;
+    font-weight: 1200px;
+}
+.productDesc{
+    font-style: 18px;
+    color: #d9ceb8;
+}
+.colors,.sizes{
+    display: flex;
+    margin-bottom: 20px;
+}
+.color{
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    background-color: #2f4679; 
+    margin-right: 10px;
+    cursor: pointer;
+}
+.color:last-child{
+    background-color: #d9ceb8;
+}
+.size{
+    padding: 5px;
+    border: 1px solid black;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 10px;
+}
+.productPrice{
+    color: #2f4679;
+}
+.productButton{
+    float: right;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border-color: #2f4679;
+    background-color: #2f4679;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+.productButton:hover{
+    background-color: white;
+    color: #2f4679;
+    transition: 0.2s;
+}
